@@ -1,3 +1,4 @@
+@import url(./fonts.css);
 body{
     margin: 0;
     padding: 0;
@@ -38,14 +39,129 @@ h3{
     font-size: 22px;
     color: var(--color_h3);
     text-transform: uppercase;
+    font-weight: 100;
+    margin: 0px;
 }
 h4{
     font-family: Roboto_Medium;
     font-size: 18px;
     color: var(--color_h4);
 }
-p .text{
+.text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: var(--color_p_text);
+}
+
+/* Header */
+
+.bg_main_1{
+    box-shadow: 2px 3.464px 7px 0px rgba(155, 182, 190, 0.75);
+}
+header .bg_main_2{
+    background-color: var(--color_main_2);
+    background-image: url(../images/Svg/Bg1.svg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+header span, header a{
+    font-size: 20px;
+    color: #3f6584;
+    font-weight: 250;
+    font-family: Roboto_Medium;
+}
+header a{
+    text-decoration: none;
+    color: #caddea;
+}
+.head_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.head_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.head_2 img{
+    height: 25px;
+    margin: 0 10px;
+}
+.head_2 a:hover{
+    color: var(--color_main_1)
+}
+.head_2 a{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+header .bg_main_1{
+    background-color: var(--color_main_1);
+}
+.head_3 a{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.head_3 a:hover{
+    color: var(--color_btn_send_messege);
+    background-color: var(--color_btn_read_more_hover);
+}
+.bg_main_3 .col-12{
+    padding-bottom: 30px;
+}
+header .bg_main_3{
+    background-image: url(../images/Bestwritinghelp_Index_Desktop_1170.png);
+    background-size: auto 630px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.smh{
+    display: flex;
+    align-items: center;
+    background-color: var(--color_btn_send_messege_hover);
+    box-shadow: 2px 3.464px 7px 0px rgba(155, 182, 190, 0.75);
+    height: 70px;
+    padding-left:50px;
+}
+.bg_main_3 ul{
+    padding: 10px;
+    margin: 0px;
+}
+.bg_main_3 li{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.bg_main_3 h3{
+    padding-left:50px ;
+}
+.ellipse{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color_btn_send_messege);
+    margin-right:20px;
+}
+.sm_2{
+    border: 2px solid var(--color_btn_send_messege);
+    padding: 7px;
+    text-align: center;
+    color: var(--color_btn_send_messege);
+    -webkit-transition: all 0.5s;
+}
+.pad{
+    padding: 7px;
+
+}
+.pad .sm_2:hover{
+    transition: all 0.5s;
+    background-color: var(--color_btn_send_messege_hover);
 }
