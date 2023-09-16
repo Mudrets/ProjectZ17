@@ -1,0 +1,95 @@
+/* header */
+@media screen and (min-width:1400px) {
+    nav ul li a{
+        padding: 13px 25px;
+    }
+}
+/* main */
+@media screen and (min-width:1400px) {
+    .cards::after{
+        content: '';
+        -webkit-transition: all 0.3s;
+        width: 0;
+        height: 0;
+        border-top:40px solid white;
+        border-right:40px solid transparent;
+        position: absolute;
+        top: 646px;
+        right: 296px;
+        opacity: 0;
+    }
+    .cards_2 select{
+        width: 350px;
+    }
+    .button_order_now{
+        width: 340px;
+    }
+    .button_order_now::after{
+        content: '';
+        -webkit-transition: all 0.3s;
+        width: 0;
+        height: 0;
+        border-top:40px solid var(--color_btn_order_now);
+        border-right:40px solid transparent;
+        position: fixed;
+        top: 30px;
+        right: 310px;
+    }
+    .smh_2::after{
+        content: '';
+        width: 0;
+        height: 0;
+        border-top:40px solid var(--color_btn_send_messege_hover);
+        border-right:40px solid transparent;
+        position: relative;
+        top: 25px;
+        right: 1280px;
+    }
+    .smh_3{
+        background-position-x:850px ;
+    }
+    .smh_3::after{
+        content: '';
+        width: 0;
+        height: 0;
+        border-top:40px solid var(--color_btn_send_messege_hover);
+        border-right:40px solid transparent;
+        position: relative;
+        top: 25px;
+        right: 1320px;
+    }
+    .price{
+        font-size: 45px;
+    }
+    .inf{
+        height: 320px;
+    }
+    .login::after{
+        content:'';
+        display: inline-block;
+        background-image: url(../../images/Svg/Login.svg);
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 28px;
+    }
+    .live_chat::after{
+        content:'';
+        display: inline-block;
+        background-image: url(../../images/Svg/Chat.svg);
+        background-repeat: no-repeat;
+        width: 55px;
+        height: 28px;
+    }
+    .login:hover::after{
+            background-image: url(../../images/Svg/Login2.svg);
+    }
+    .live_chat:hover::after{
+            background-image: url(../../images/Svg/Chat2.svg);
+    }
+    .login:hover{
+        color: var(--color_main_1)
+    }
+    .live_chat:hover{
+        color: var(--color_main_1)
+    }
+}

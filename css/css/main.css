@@ -1,0 +1,189 @@
+main .bg_main_1{
+    padding: 30px 0px;
+    background-color: var(--color_main_1);
+    background-image: url(../../images/Svg/Bg2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main .bg_main_2{
+    padding: 30px 0px;
+    background-color: var(--color_btn_read_more);
+    background-image: url(../../images/Svg/Bg2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main .bg_main_4{
+    background-color: #f4f6fa;
+    padding: 30px 0px 50px 0px;
+    background-image: url(../../images/Svg/Bg3.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main .bg_main_1 .text{
+    margin: 24px 0px;
+}
+main .bg_main_4 .cards h4{
+    margin: 13px 0px;
+}
+main .bg_main_4 .cards .text{
+    margin: 24px 0px;
+}
+.cards .col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    -webkit-transition: all 0.3s;
+    padding: 30px 10px;
+}
+.cards:hover{
+    transition: all 0.3s;
+    background-color: white;
+    filter: drop-shadow(2px 3px 7px  rgb(155, 182, 190));
+}
+.cards::after{
+    content: '';
+    -webkit-transition: all 0.3s;
+    width: 0;
+    height: 0;
+    border-top:40px solid white;
+    border-right:40px solid transparent;
+    position: absolute;
+    top: 546px;
+    right: 452px;
+    opacity: 0;
+}
+.cards:hover::after{
+    content: '';
+    transition: all 0.3s;
+    opacity: 100;
+}
+.img-1{
+    height: 150px;
+    width: 100%;
+}
+.img-1::after{
+    -webkit-transition: all 0.3s;
+    content: '';
+    background-image: url(../../images/Svg/Element1.svg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.cards:hover .img-1::after{
+    content: '';
+    transition: all 0.3s;
+    background-image: url(../../images/Svg/Element1_dark.svg);
+}
+.img-2{
+    height: 150px;
+    width: 100%;
+}
+.img-2::after{
+    -webkit-transition: all 0.3s;
+    content: '';
+    background-image: url(../../images/Svg/Element2.svg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.cards:hover .img-2::after{
+    content: '';
+    transition: all 0.3s;
+    background-image: url(../../images/Svg/Element2_dark.svg);
+}
+.img-3{
+    height: 150px;
+    width: 100%;
+}
+.img-3::after{
+    -webkit-transition: all 0.3s;
+    content: '';
+    background-image: url(../../images/Svg/Element3.svg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.cards:hover .img-3::after{
+    content: '';
+    transition: all 0.3s;
+    background-image: url(../../images/Svg/Element3_dark.svg);
+}
+.img-4{
+    height: 150px;
+    width: 100%;
+}
+.img-4::after{
+    -webkit-transition: all 0.3s;
+    content: '';
+    background-image: url(../../images/Svg/Element4.svg);
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.cards:hover .img-4::after{
+    content: '';
+    transition: all 0.3s;
+    background-image: url(../../images/Svg/Element4_dark.svg);
+}
+.inf{
+    height: 220px;
+}
+.roll{
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.inf_2{
+    height: 130px;
+}
+.inf_2 hr{
+    border: 1px solid white;
+}
+.cards_2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+.cards_2 select{
+    width: 300px;
+    height: 40px;
+    background-color: var(--color_btn_read_more_hover);
+}
+.cards_2 span{
+    width: 80%;
+    padding-bottom: 10px;
+}
+.price{
+    font-size: 29px;
+    color: white;
+}

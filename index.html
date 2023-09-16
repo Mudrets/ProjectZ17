@@ -6,18 +6,17 @@
     <title>Project</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-    
-</head>
+    </head>
 <body>
     <header>
         <div class="container-fluid bg_main_2">
             <div class="container">
                 <div class="row">
-                    <div class="col-8 head_1">
+                    <div class="col-xl-8 col-lg-12 head_1">
                         <span>Sales toll free:<a href=""> 1 (877) 894-0925</a> </span>
                         <span>Support toll free:<a href=""> 1 (888) 901-8317</a></span>
                     </div>
-                     <div class="col-4 head_2">
+                     <div class="col-xl-4 d-xl-flex d-lg-none head_2">
                         <a href="" class="login">Login </a>
                         <a href="" class="live_chat" >Live Chat </a>
                     </div>
@@ -25,35 +24,50 @@
             </div>
         </div>
         <div class="container-fluid bg_main_1">
-            <div class="container">
-                <div class="row head_3">
-                    <a class="col border_li" href="">home</a>
-                    <a class="col border_li" href="">about us</a>
-                    <a class="col border_li" href="">prices</a>
-                    <a class="col border_li" href="">discount</a>
-                    <a class="col border_li" href="">guarantees</a>
-                    <a class="col border_li" href="">faq</a>
-                    <a class="col border_li" href="">beware</a>
-                    <a class="col border_li" href="">Contact us</a>
-                    <a class="col" href="">blog</a>
-                </div>
-            </div>
+            <nav>
+                <div class="container-fluid">    
+                    <div class="container d-lg-none d-xl-block">             
+                        <ul>          
+                            <li class="border_li"><a href="#">home</a></li>          
+                            <li class="border_li"><a href="#">about us</a></li>         
+                            <li class="border_li"><a href="#">prices</a></li>         
+                            <li class="border_li"><a href="#">discounts</a></li>         
+                            <li class="border_li"><a href="#">guarantees</a></li>        
+                            <li class="border_li"><a href="#">faq</a></li>       
+                            <li class="border_li"><a href="#">beware</a></li>        
+                            <li class="border_li"><a href="#">contact us</a></li>       
+                            <li class=""><a href="#">blog</a></li>        
+                        </ul>       
+                    </div>      
+                    <div class="container d-xl-none">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href=""><img src="./images/MicrosoftTeams-image.png" alt=""></a>
+                            </div>
+                            <div class="col-6 d-flex justify-content-around">
+                                <a href="" class="login">Login </a>
+                                <a href="" class="live_chat" >Live Chat </a>
+                            </div>
+                        </div>
+                    </div>       
+                </div>       
+              </nav>
         </div>
         <div class="container-fluid bg_main_3">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 row">
-                        <div class="col-12" style="margin-top: 30px;">
+                    <div class="col-xl-7 col-lg-8 col-xxl-6">
+                        <div style="margin-top: 30px;">
                             <img src="./images/Logo.svg" alt="">
                         </div>
-                        <div class="col-12">
+                        <div>
                             <a href="#">
                                 <div class="smh">
                                     <h1>Things go Better with Us!</h1>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-12">
+                        <div style="padding-bottom: 30px; padding-left: 30px;">
                             <h3>what we offer you:</h3>
                             <ul class="text">
                                 <li> <div class="ellipse"></div> A dedicated writer who is qualified in your field</li>
@@ -62,7 +76,7 @@
                                 <li> <div class="ellipse"></div> A flawless end product in terms of style and grammar</li>
                             </ul>
                         </div>
-                        <div class="col-12 row">
+                        <div style="padding-bottom: 30px;" class="row">
                             <div class="col-6 pad">
                                 <a href="">
                                     <div class="sm_2">Essays & Research Papers</div>
@@ -85,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6"></div>
+                    <div class="col-xl-5 col-lg-4 col-xxl-6"></div>
                 </div>
             </div>
         </div>
@@ -96,8 +110,8 @@
             <div class="container">
                 <a href="#">
                     <div class="smh_3">
-                        <h2 class="col-8">Get a price quote</h2>
-                        <span class="col-4" style="color: red;font-size: 45px;">15<span style="color: red;font-size: 35px;">% OFF </span><span style="font-size: 22px;">YOUR FIRST ORDER</span></span>
+                        <h2 class="col-xl-8 col-lg-6">Get a price quote</h2>
+                        <span class="col-xl-4 col-lg-6" style="color: red;font-size: 45px;">15<span style="color: red;font-size: 35px;">% OFF </span><span style="font-size: 22px;">YOUR FIRST ORDER</span></span>
                     </div>
                 </a>
                 <div class="row">
@@ -118,9 +132,7 @@
                         <select name="" id=""></select>
                     </div>
                     <div class="col-4 cards_2 center">
-                        <span class="text" style="color: #caddea;">TOTAL PRICE <span style="color: white; font-size: 45px;">16.99 USD</span></span>
-                        
-                        
+                        <span class="text" style="color: #caddea;">TOTAL PRICE <span class="price">16.99 USD</span></span>
                     </div>
                     <div class="col-4 cards_2 end">
                         <a href="" class="button_order_now order_now">order now</a>
@@ -140,7 +152,7 @@
                         If you are thinking you can't write your essay well enough and you need professional assistance, then you are thinking along the right lines. When your tutors read the essay we provide, they will love it. They will think you wrote it and they will admire the way it is written, so you are likely to get an A grade.
                     </p>
                     <div class="row">
-                        <div class="col cards">
+                        <div class="col-xl-3 col-lg-6 cards">
                             <div class="img-1">
                             </div>
                             <div>
@@ -157,7 +169,7 @@
                                 <a href="" class="button_read_more read_more">read more</a>
                             </div>
                         </div>
-                        <div class="col cards">
+                        <div class="col-xl-3 col-lg-6 cards">
                             <div class="img-2">
                             </div>
                             <div>
@@ -174,7 +186,7 @@
                                 <a href="" class="button_read_more read_more">read more</a>
                             </div>
                         </div>
-                        <div class="col cards">
+                        <div class="col-xl-3 col-lg-6 cards">
                             <div class="img-3">
                             </div>
                             <div>
@@ -196,7 +208,7 @@
                                 <a href="" class="button_read_more read_more">read more</a>
                             </div>
                         </div>
-                        <div class="col cards">
+                        <div class="col-xl-3 col-lg-6 cards">
                             <div class="img-4">
                             </div>
                             <div>
@@ -233,7 +245,7 @@
                     The features that define our uniqueness when you order paper assignments:
                 </p>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">1</span>
                         </a>
@@ -244,7 +256,7 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">2</span>
                         </a>
@@ -255,7 +267,7 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">3</span>
                         </a>
@@ -266,7 +278,7 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">4</span>
                         </a>
@@ -277,7 +289,7 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">5</span>
                         </a>
@@ -288,7 +300,7 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">6</span>
                         </a>
@@ -299,7 +311,7 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">7</span>
                         </a>
@@ -310,7 +322,7 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xl-3 col-lg-4">
                         <a href="" class="roll">
                             <span class="text" style="color: #1b7fd0;">8</span>
                         </a>
@@ -324,6 +336,151 @@
                 </div>
             </div>
         </div>
+        <div class="container-fluid bg_main_4">
+            <div class="container">
+                <a href="#">
+                    <div class="smh_2" style="text-align: center;">
+                        <h2>how it works</h2>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-7"></div>
+                    <div class="col-5"></div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="" class="button_order_now order_now">order now</a>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="container-fluid bg_main_5">
+            <div class="container">
+                <div class="row">
+                    <div class="links col-6">
+                        <a href=""><img src="./images/Payment systems/american express.svg" alt=""></a>
+                        <a href=""><img src="./images/Payment systems/visa.svg" alt=""></a>
+                        <a href=""><img src="./images/Payment systems/paypal.svg" alt=""></a>
+                        <a href=""><img src="./images/Payment systems/master card.svg" alt=""></a>
+                        <a href=""><img src="./images/Payment systems/jcb.svg" alt=""></a>
+                        <a href=""><img src="./images/Payment systems/discover.svg" alt=""></a>
+                        <a href=""><img src="./images/Payment systems/diners-club.svg" alt=""></a>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="links col-3">
+                        <a href="" class="l-1"></a>
+                        <a href="" class="l-2"></a>
+                        <a href="" class="l-3"></a>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg_main_2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <a href="" class="d-block text">Site map</a>
+                        <a href="" class="d-block text">Free essays</a>
+                        <a href="" class="d-block text">Custom Research Papers</a>
+                        <a href="" class="d-block text">Custom Term Paper</a>
+                        <a href="" class="d-block text">Writing Service</a>
+                        <a href="" class="d-block text">Custom Writing</a>
+                        <a href="" class="d-block text">Custom Writing Services</a>
+                        <a href="" class="d-block text">Custom Written Essay</a>
+                        <a href="" class="d-block text">Do My Essay</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="" class="d-block text">Do My Paper</a>
+                        <a href="" class="d-block text">Editing Service</a>
+                        <a href="" class="d-block text">Essay Buy</a>
+                        <a href="" class="d-block text">Essay Editing </a>
+                        <a href="" class="d-block text">Essay Help</a>
+                        <a href="" class="d-block text">Essay Online</a>
+                        <a href="" class="d-block text">Essay Order</a>
+                        <a href="" class="d-block text">Essay Paper</a>
+                        <a href="" class="d-block text">Essay Papers to Buy</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="" class="d-block text">Site map</a>
+                        <a href="" class="d-block text">Free essays</a>
+                        <a href="" class="d-block text">Custom Research Papers</a>
+                        <a href="" class="d-block text">Custom Term Paper</a>
+                        <a href="" class="d-block text">Writing Service</a>
+                        <a href="" class="d-block text">Custom Writing</a>
+                        <a href="" class="d-block text">Custom Writing Services</a>
+                        <a href="" class="d-block text">Custom Written Essay</a>
+                        <a href="" class="d-block text">Do My Essay</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="" class="d-block text">Do My Paper</a>
+                        <a href="" class="d-block text">Editing Service</a>
+                        <a href="" class="d-block text">Essay Buy</a>
+                        <a href="" class="d-block text">Essay Editing </a>
+                        <a href="" class="d-block text">Essay Help</a>
+                        <a href="" class="d-block text">Essay Online</a>
+                        <a href="" class="d-block text">Essay Order</a>
+                        <a href="" class="d-block text">Essay Paper</a>
+                        <a href="" class="d-block text">Essay Papers to Buy</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="" class="d-block text">Online Term Paper</a>
+                        <a href="" class="d-block text">Online Writing</a>
+                        <a href="" class="d-block text">Order an Essay</a>
+                        <a href="" class="d-block text">Order Custom Essay</a>
+                        <a href="" class="d-block text">Order Custom Paper</a>
+                        <a href="" class="d-block text">Order Essay</a>
+                        <a href="" class="d-block text">Order Essays</a>
+                        <a href="" class="d-block text">Original Essay</a>
+                        <a href="" class="d-block text">Paper Service</a>
+                    </div>
+                    <div class="col-2">
+                        <a href="" class="d-block text">Paper Writer</a>
+                        <a href="" class="d-block text">Paper Writing</a>
+                        <a href="" class="d-block text">Paper Writing Service</a>
+                        <a href="" class="d-block text">Personal Narrative Essay</a>
+                        <a href="" class="d-block text">Academic Essays Writers</a>
+                        <a href="" class="d-block text">Buy Cheap Essay</a>
+                        <a href="" class="d-block text">Buy Custom</a>
+                        <a href="" class="d-block text">Paper  Buy Custom</a>
+                        <a href="" class="d-block text">Buy Research Paper</a>
+                    </div>
+                </div>
+                <hr>
+            <div class="nav d-xl-flex d-lg-none">             
+                <ul>          
+                    <li class="border_li"><a href="#">Business</a></li>          
+                    <li class="border_li"><a href="#">Economics</a></li>         
+                    <li class="border_li"><a href="#">Informative</a></li>         
+                    <li class="border_li"><a href="#">Literature</a></li>         
+                    <li class="border_li"><a href="#">Management</a></li>        
+                    <li class="border_li"><a href="#">Political</a></li>       
+                    <li class="border_li"><a href="#">Psychology</a></li>        
+                    <li class="border_li"><a href="#">Research</a></li>       
+                    <li class="border_li"><a href="#">Technology</a></li>       
+                    <li class=""><a href="#">Review</a></li>        
+                </ul> 
+            </div>
+            <div class="nav d-xl-none d-lg-flex">             
+                <ul>          
+                    <li class="border_li"><a href="#">Business</a></li>          
+                    <li class="border_li"><a href="#">Economics</a></li>         
+                    <li class="border_li"><a href="#">Informative</a></li>         
+                    <li class="border_li"><a href="#">Literature</a></li>         
+                    <li class="border_li"><a href="#">Management</a></li>        
+                    <li class="border_li"><a href="#">Political</a></li>       
+                    <li><a href="#">Psychology</a></li>           
+                </ul> 
+                <ul>               
+                    <li class="border_li"><a href="#">Research</a></li>       
+                    <li class="border_li"><a href="#">Technology</a></li>       
+                    <li><a href="#">Review</a></li>        
+                </ul> 
+            </div>
+            <div class="d-flex justify-content-center align-content-center">
+                <span>Terms and Conditions Privacy Policy</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
