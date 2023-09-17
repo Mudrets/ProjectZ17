@@ -1,11 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-ul{
-    padding: 0px 0px 0px 40px;
-    text-align: justify;
-}
+
 header .bg_main_1{
     padding: 0;
     box-shadow: 2px 3.464px 7px 0px rgba(155, 182, 190, 0.75);
@@ -24,16 +17,6 @@ header .bg_main_3{
     background-repeat: no-repeat;
     background-position: center;
     }
-span, a{
-    font-size: 20px;
-    color: #3f6584;
-    font-weight: 250;
-    font-family: Roboto_Medium;
-}
-a{
-    text-decoration: none;
-    color: #caddea;
-}
 .head_1{
     display: flex;
     justify-content: space-around;

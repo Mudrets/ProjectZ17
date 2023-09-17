@@ -19,6 +19,21 @@
     --color_btn_oder_now_hover:#a40000;
     
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0px 0px 0px 40px;
+    text-align: justify;
+}
+span, a{
+    font-size: 20px;
+    font-weight: 250;
+    font-family: Roboto_Medium;
+    text-decoration: none;
+    color: #caddea;
+}
 .read_more{
     font-size: 16px;
     font-family: Roboto_Regular;
@@ -50,6 +65,7 @@ h2{
     margin: 0px;
 }
 h3{
+    width: 100%;
     font-family: Roboto_Medium;
     font-size: 22px;
     color: var(--color_h3);
@@ -58,6 +74,7 @@ h3{
     margin: 0px;
 }
 h4{
+    width: 100%;
     font-family: Roboto_Medium;
     font-size: 18px;
     color: var(--color_h4);

@@ -62,6 +62,9 @@
     top: 25px;
     right: 960px;
 }
+.smh_3 span{
+    color: #075da2;
+}
 /* button-read-more */
 .button_read_more{
     -webkit-transition: all 0.3s;
