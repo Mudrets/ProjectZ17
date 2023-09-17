@@ -240,7 +240,75 @@ main .bg_main_4 hr{
 .cards_3:hover h3{
     color: white;
 }
-.cards_4{
+#cards_3_1 {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
     background-color: white;
     filter: drop-shadow(2px 3px 7px  rgb(155, 182, 190));
+    height: 430px;
+}
+#cards_3_1:target {
+    display: block;
+}
+#cards_3_2 {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    filter: drop-shadow(2px 3px 7px  rgb(155, 182, 190));
+    height: 430px;
+}
+#cards_3_2:target {
+    display: block;
+}
+#cards_3_3 {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    filter: drop-shadow(2px 3px 7px  rgb(155, 182, 190));
+    height: 430px;
+}
+#cards_3_3:target {
+    display: block;
+}
+#cards_3_4 {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    filter: drop-shadow(2px 3px 7px  rgb(155, 182, 190));
+    height: 430px;
+}
+#cards_3_4:target {
+    display: block;
+}
+#cards_3_5 {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    filter: drop-shadow(2px 3px 7px  rgb(155, 182, 190));
+    height: 430px;
+}
+#cards_3_5:target {
+    display: block;
+}
+#cards_3_6 {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    filter: drop-shadow(2px 3px 7px  rgb(155, 182, 190));
+    height: 430px;
+}
+#cards_3_6:target {
+    display: block;
 }
